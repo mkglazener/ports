@@ -1,7 +1,6 @@
 .container-fluid {
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.8;
-  background: pink;
 }
 
 font {
@@ -209,7 +208,6 @@ body {
   #main {
     width: 80%;
     float: right;
-    -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
   }
@@ -289,5 +287,9 @@ body {
   * {
     margin: 0px;
     padding: 0px;
+  }
+
+  .navbar {
+    background: greenyellow;
   }
 }
